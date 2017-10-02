@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Investor App</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--<script src="./index.js"></script>-->
+
+  <link href="app/stylesheets/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen"> 
+  <style>
+
+body{
+  background-color: rgba(0, 0, 0, 0.89);
+  color: white;
+}
+
+div.well{
+  height: 250px;
+} 
+
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.Absolute-Center.is-Responsive {
+  background-color: white
+  width: 50%; 
+  height: 50%;
+  min-width: 200px;
+  max-width: 400px;
+  min-height: 400px;
+  padding:0px;
+}
+
+#logo-container{
+  margin: auto;
+  margin-bottom: 10px;
+}
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="Absolute-Center is-Responsive" style="background-color:white">
+      <div id="logo-container" style = "text-align:center; margin-top:18%">
+      <img src="./img/logo.png" height= "75px";></img>
+      </div>
+      <div class="col-sm-12 col-md-10 col-md-offset-1">
+        <div class="btn-group-vertical col-xs-12">
+            <button type="button" class="btn btn-primary btn-lg" onclick = "window.location = window.location.protocol + '//' + window.location.host + '/blockchain/registration.html';" >Investor Registration</button>
+            <button type="button" class="btn btn-primary btn-lg" onclick = "window.location = window.location.protocol + '//' + window.location.host + '/blockchain/details.html';">Investor Details</button>
+            <button type="button" class="btn btn-primary btn-lg" onclick = "window.location = window.location.protocol + '//' + window.location.host + '/blockchain/summary.html';">Investor Summary</button>
+            <button type="button" class="btn btn-primary btn-lg" onclick = "window.location = window.location.protocol + '//' + window.location.host + '/scdemo/';">Supply Chain Demo</button>
+        </div>
+        </form>        
+      </div>  
+    </div>    
+  </div>
+</div>
+
+</body>
+</html>
